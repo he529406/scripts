@@ -46,7 +46,7 @@ async function operator(proxies = [], targetPlatform, context) {
   const internal = $arguments.internal
   const regex = $arguments.regex
   let format = $arguments.format || '{{api.country}} {{api.isp}} - {{proxy.name}}'
-  let url = $arguments.api || 'http://ip-api.com/json?lang=zh-CN'
+  let url = $arguments.api || 'https://ipinfo.io/json'
   if (internal) {
     // if (isSurge) {
     //   //
