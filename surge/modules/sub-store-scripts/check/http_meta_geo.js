@@ -1,4 +1,4 @@
-/**
+
  *
  * 节点信息(适配 Sub-Store Node.js 版)
  * 
